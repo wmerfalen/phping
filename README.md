@@ -1,2 +1,4 @@
 # phping
-A ICMP interface for PHP
+An ICMP interface for PHP
+
+License MIT

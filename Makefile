@@ -86,7 +86,7 @@ LINKER				=	g++
 #
 
 COMPILER_FLAGS		=	-Wall -c -O2 -std=c++11 -fpic `libnet-config --defines --cflags` -o
-LINKER_FLAGS		=	-shared
+LINKER_FLAGS		=	-shared -Wl,--no-undefined
 LINKER_DEPENDENCIES	=	-lphpcpp -lpcap `libnet-config --libs`
 
 
